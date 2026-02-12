@@ -1,0 +1,62 @@
+/* Reset default styling */
+.main .block-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Set to native HTML semantic & reset */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  color: #e5e7eb;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #9ca3af;
+  line-height: 1.6;
+}
+
+header,
+section,
+footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main {
+  width: 100%;
+}
+
+/* align header */
+header {
+  text-align: center;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  header,
+  section,
+  footer {
+    padding: 1.25rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+}
